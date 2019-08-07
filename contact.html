@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Green Age Theme - Contact Form</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+$(function() {
+    $('#map a').lightBox();
+});
+</script>
+
+</head>
+<body class="subpage">
+
+<div id="tooplate_wrapper">
+	<div id="tooplate_header">
+    	
+        <div id="site_title"><h1><a href="#">Green Age</a></h1></div>
+        
+        <div class="cleaner"></div>
+    </div>
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="gallery.html">Products</a></li>
+            <li><a href="blog.html">About-us</a></li>
+            <li><a href="Loginpage.html">Login/sign-up</a></li>
+            <li class="last"><a href="contact.html">Contact</a></li>
+        </ul>    	
+        
+    	
+        <div class="cleaner"></div>
+    </div> 
+    
+    <div id="tooplate_middle_subpage">
+        <h2><strong>Contact Information</strong></h2>
+        <p>You can contact us anytime please feel free to contact us from our contact form. We will try to do our best for you. Also you can leave any of our good or bad.We know that your satisfied with our works so we like to <strong>thankfull for keeping trust on us</strong></a>.</p>
+    </div>
+        
+    <div id="tooplate_main">
+        <div class="col_w960 col_w960_last">
+		
+            <div class="col_w450 float_l">
+           	  	<h3>Quick Contact Form</h3>
+              	<div id="cp_contact_form">
+				
+                    <form method="post" name="contact" action="#"> 
+	
+						<label for="author">Name:</label> 
+                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" /> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="email">Email:</label> 
+                    <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" /> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="subject">Subject:</label> 
+                  <input name="subject" type="text" class="validate-subject required input_field" id="subject" maxlength="80"/> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="text">Message:</label> 
+                <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea> 
+						<div class="cleaner h10"></div>                
+	
+						<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" /> 
+						<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" /> 
+	
+					</form>
+    
+            	</div>
+            </div>
+            
+            <div class="col_w450 float_r" id="map">
+            	<h3>Our Location</h3>
+                <a href="images/map_big.jpg" title="Our Location">
+                    <img src="images/map_thumb.jpg" alt="Map" />
+                </a>
+
+				<div class="cleaner h30"></div>
+                                
+                <h3>Our Address</h3>
+                <h6>Green Company</h6>
+                150/3 School Junction,<br />
+                Moragahahena Road,<br />
+                Homagama<br /><br />
+				
+                Tel: 037-123-4567<br />
+				Fax: 076-767-6777<br />
+            </div>
+            
+            <div class="cleaner"></div>
+		</div>
+        
+        <div class="cleaner"></div>
+    </div> 
+        
+</div> 
+
+<div id="tooplate_cr_wrapper">
+	<div id="tooplate_cr">
+    	
+         1st Year Second Semester WEB group project
+
+    </div> 
+</div> 
+
+</body>
+</html>

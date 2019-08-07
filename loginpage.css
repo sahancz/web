@@ -1,0 +1,304 @@
+.homepage
+{
+    background-image: url(images/tooplate_body_subpage.jpg); 
+}
+
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #fff;
+	background-repeat: repeat-x;
+	background-position: top;	
+}
+
+
+#page_wrapper 
+{
+	width: 960px;
+	padding: 0 20px;
+	margin: 0 auto
+}
+
+#page_header 
+{
+	width: 960px;
+	height: 100px;
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 1000px; 
+	height: 100px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(images/tooplate_logo.png); 
+}
+
+#site_title h1 { 
+	margin: 0px 0 0 0; 
+	padding: 0; 
+}
+
+
+#site_title 
+{ 
+	float: left; 
+}
+
+.cleaner 
+{
+    clear: both 
+}
+
+#page_menu 
+{
+	clear: both;
+	width: 960px;
+	height: 50px;
+	background: url(images/tooplate_menu.jpg)
+}
+
+#page_menu ul {
+	float: left;
+	width: 740px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#page_menu ul li {
+	float: left;
+	display: block;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	text-align: center;
+	background: url(images/tooplate_menu_divider.png) no-repeat right center
+}
+
+#page_menu ul li a {
+	display: block;
+	width: 100px;
+	height: 32px;
+	padding: 8px 0 0;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #5fa008;	
+	font-weight: normal;
+	outline: none;
+	border: none;
+	background: url(images/tooplate_menu.png) no-repeat bottom center
+}
+
+#page_menu ul li a:hover , #page_menu ul li .current { 
+	color: #fff; 
+	height: 38px; 
+	padding: 5px 0 0 0; 
+	background: url(images/tooplate_menu_hover.png) bottom center no-repeat; 
+}
+
+#page_menu ul .last 
+{ 
+	background: none; 
+}
+
+
+#search_box 
+{ 
+	float: right; 
+	margin: 12px 0 0 0; 
+	width: 170px; 
+	height: 27px; 
+	background: url(images/tooplate_search.png) no-repeat; 
+}
+
+#search_box form
+{ 
+	clear: both; 
+	width: 170px; 
+	height: 26px; 
+	padding: 0; 
+	margin: 0; 
+} 
+
+#searchfield 
+{ 
+	float: left; 
+	display: block; 
+	height: 16px; 
+	width: 130px; 
+	padding: 5px; 
+	font-size: 12px; 
+	color: #ccc; 
+	line-height: 0; 
+	background: none; 
+	border: none; 
+} 
+
+#searchbutton 
+{ 
+	float: right; 
+	display: block; 
+	height: 26px; 
+	width: 30px; 
+	padding: 0; 
+	margin: 0; 
+	cursor: pointer; 
+	background: none; 
+	border: none; 
+}
+
+#page_middle_subpage
+{ 
+	clear: both;
+	width: 960px;
+	height: 130px;
+	background: url(images/tooplate_middle.png) no-repeat;
+}
+
+#page_middle_subpage h2 
+{ 
+	color: #fff; 
+    margin-top: 6px;
+    margin-bottom: 2px
+}
+
+#page_middle_subpage p 
+{ 
+	font-size: 16px; 
+	color: #eee; 
+	line-height: 30px; 
+}
+
+#page_middle_subpage a 
+{
+	color: #eee;
+}
+
+.page_login
+{ 
+	clear: both;
+    margin-top: 100px;
+	width: 960px;
+	height: 130px;
+}
+
+.loginpanel
+{
+    background-color: lightgreen; 
+    float: left;
+    min-width: 42%;
+    max-width: 42%;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 200px;
+}
+
+.signuppanel
+{
+    background-color: lightgreen;
+    float: right;
+    min-width: 42%;
+    max-width: 42%;
+    margin-left: 25px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    
+}
+
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn 
+{
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn 
+{
+    float: left;
+    width: 50%;
+}
+
+.container 
+{
+    padding: 16px;
+}
+
+.cancelcontainer 
+{
+    padding: 2px 15px;
+}
+
+.clearfix : after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+h2
+{
+    margin-right: 10px;
+    font-size: 25;
+}
+
+.lcancelbtn 
+{
+    width: 170px;
+    font-size: 15px;
+    background-color: #f44336;
+}
+
+#page_cr_wrapper {
+	clear: both;
+	width: 100%;
+	background: #000;
+}
+
+#page_cr {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	text-align: center;
+	color: #666;
+	background:  url(images/tooplate_footer.jpg) top center no-repeat
+}
+
+#page_cr a { 
+	color: #5fa008; 
+	font-weight: normal; 
+}
