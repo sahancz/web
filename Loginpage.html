@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CeyMed Mobile Pharmacy - Login/Signup!</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+    
+<link href="loginpage.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+</head>
+<body class="homepage">
+
+<div id="Page_wrapper">
+	<div id="page_header">
+    	
+        <div id="site_title"><h1><a href="index.html">CeyMed Mobile Pharmacy</a></h1></div>
+        
+        <div class="cleaner"></div>
+    </div>
+    
+    <div id="page_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Products</a></li>
+            <li><a href="blog.html">About-us</a></li>
+            <li><a href="Loginpage.html" class="current" >Login/sign-up</a></li>
+            <li class="last"><a href="contact.html">Contact</a></li>
+        </ul>    	
+        
+        
+        <div class="cleaner"></div>
+    </div>
+
+    <div id="page_middle_subpage">
+        <h2>Login And Sign-Up</h2>
+        <p>If you're not logged in,
+You'll need to log in to get access to all of the content on this site.
+        <br>
+        Not a member yet..? Just sign-up below and be a member to get the best of the site! <br> Get ready to take a step forward and stand out from Others..
+        </p> 
+    </div>
+    
+    <div class="page_login">
+        <div class="loginpanel">
+            <h2> Login Form</h2>
+
+                <form action="/action_page.php">
+
+                <div class="container"> 
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit">Login</button>
+                    <input type="checkbox" checked="checked"> Remember me
+                    <div class="cancelcontainer" >
+                        <button type="button" class="lcancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                    </div>
+                </form>
+        </div>
+        
+        
+        
+        <div class="signuppanel">
+            <h2>Signup Form</h2>
+            
+            <form action="/action_page.php" style="border:1px solid #ccc">
+                <div class="container">
+                    <label><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                    <input type="checkbox" checked="checked"> Remember me
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div> 
+                </div>
+            </form>
+        </div>
+    </div>
+        
+</div> 
+
+<div id="page_cr_wrapper">
+	<div id="page_cr">
+    	
+          1st Year Second Semester WEB group project
+        
+    </div>
+</div> 
+
+</body>
+</html>
